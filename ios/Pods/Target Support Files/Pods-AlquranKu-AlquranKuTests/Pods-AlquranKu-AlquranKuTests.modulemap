@@ -1,0 +1,6 @@
+module Pods_AlquranKu_AlquranKuTests {
+  umbrella header "Pods-AlquranKu-AlquranKuTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_AlquranKu {
+  umbrella header "Pods-AlquranKu-umbrella.h"
+
+  export *
+  module * { export * }
+}
