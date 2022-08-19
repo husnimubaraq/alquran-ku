@@ -22,11 +22,14 @@ export const styles = StyleSheet.create({
     height: RFValue(40),
     alignItems: 'center',
     justifyContent: 'center',
+    borderRadius: 50,
+    borderWidth:2,
+    borderColor: Colors.purple1
   },
   surah_number: {
     fontSize: RFValue(14),
     fontWeight: '500',
-    color: Colors.black,
+    color: Colors.purple1,
   },
   surah_name: {
     fontSize: RFValue(18),

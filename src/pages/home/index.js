@@ -19,7 +19,7 @@ const HomeScreen = () => {
   const getSurah = async () => {
     const quran = new QuranKemenag();
     const data = await quran.getListSurah();
-    setListSurah(data);
+    setListSurah(data.slice(77, 114));
   }
 
   useEffect(() => {
@@ -30,8 +30,8 @@ const HomeScreen = () => {
     return (
       <View style={styles.header_container}>
         <View>
-          <Text style={styles.header_title}>Alquran Ku</Text>
-          <Text style={styles.header_subtitle}>Assalamualaikum</Text>
+          <Text style={styles.header_title}>Juz'amma</Text>
+          <Text style={styles.header_subtitle}>Terjemahan</Text>
         </View>
         <View>
           <Lottie source={ImageAssets.purchase_loading} autoPlay loop style={styles.purchase_image} />

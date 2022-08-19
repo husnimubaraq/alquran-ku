@@ -13,12 +13,12 @@ const SurahItem = ({
       onPress={onPress}
       style={styles.container}
     >
-      <ImageBackground
-        source={ImageAssets.num_bg}
+      <View
+        // source={ImageAssets.num_bg}
         style={styles.surah_number_bg}
       >
         <Text style={styles.surah_number}>{item.surah_id}</Text>
-      </ImageBackground>
+      </View>
       <View style={styles.surah_item_wrap}>
         <View>
           <Text style={styles.surah_name}>{item.surah_name}</Text>

@@ -23,7 +23,6 @@ export const styles = StyleSheet.create({
         fontSize: RFValue(18),
         fontWeight: '500',
         color: Colors.grey2,
-        marginTop: 10
     },
     purchase_image: {
         height: RFValue(100),

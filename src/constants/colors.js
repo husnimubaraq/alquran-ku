@@ -1,7 +1,7 @@
 const Colors = {
   white: '#FFF',
-  purple1: '#8A46E9',
-  purple2: '#6632BB',
+  purple1: '#6981c4',
+  purple2: '#4861a8',
   purple3: '#f2e8fc',
   grey1: '#F0F4F6',
   grey2: '#868AA3',
